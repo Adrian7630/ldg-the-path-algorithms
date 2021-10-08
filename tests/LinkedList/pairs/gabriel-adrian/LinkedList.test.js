@@ -9,7 +9,7 @@ describe('LinkedList', () => {
 
     test('can I add an input?', () => {
         const list = new LinkedList()
-        expect(list.addElement(56)).toEqual(56)
+        expect(list.addElement(100)).toEqual(100)
     })
 
 })
