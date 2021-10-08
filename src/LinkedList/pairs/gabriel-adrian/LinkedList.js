@@ -1,6 +1,10 @@
 class LinkedList {
-    constructor() {
-        this.node = null;
+    constructor(number = null) {
+        this.number = number;
+    }
+
+    addElement(number) {
+        return number;
     }
 }
 
